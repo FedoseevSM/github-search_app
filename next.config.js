@@ -6,6 +6,8 @@ const nextConfig = {
     loader: "akamai",
     path: "",
   },
+  basePath: "/github-search_app",
+  assetPrefix: "/github-search_app",
 }
 
 module.exports = nextConfig
