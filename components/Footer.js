@@ -7,6 +7,7 @@ const Footer = () => {
         href="https://github.com/"
         className="flex justify-center w-1 text-xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300"
         target="_blank"
+        rel="noreferrer"
       >
         GitHub
       </a>
@@ -21,6 +22,7 @@ const Footer = () => {
           className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
           aria-label="Github"
           target="_blank"
+          rel="noreferrer"
         >
           <svg
             className="w-5 h-5 fill-current"

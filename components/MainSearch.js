@@ -69,7 +69,7 @@ const MainSearch = () => {
                 </div>
                 <div>
                   <p class="text-sm font-medium leading-none text-gray-800 mb-[4px]">
-                    <a href="${item.html_url}" target="_blank">
+                    <a href="${item.html_url}" target="_blank" rel="noreferrer">
                         ${item.full_name}
                     </a>
                   </p>
