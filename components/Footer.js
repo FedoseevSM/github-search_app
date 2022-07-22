@@ -2,28 +2,28 @@ import Image from "next/image"
 
 const Footer = () => {
   return (
-    <footer class="bg-slate-200 flex flex-col items-center justify-between px-20 py-4 dark:bg-gray-800 sm:flex-row">
+    <footer className="bg-slate-200 flex flex-col items-center justify-between px-20 py-4 dark:bg-gray-800 sm:flex-row">
       <a
         href="https://github.com/"
-        class="flex justify-center w-1 text-xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300"
+        className="flex justify-center w-1 text-xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300"
         target="_blank"
       >
         GitHub
       </a>
 
-      <p class="py-2 text-gray-800 dark:text-white sm:py-0">
+      <p className="py-2 text-gray-800 dark:text-white sm:py-0">
         Все права защищены
       </p>
 
-      <div class="flex justify-center -mx-2 w-1">
+      <div className="flex justify-center -mx-2 w-1">
         <a
           href="https://github.com/samgxlden/"
-          class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
+          className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
           aria-label="Github"
           target="_blank"
         >
           <svg
-            class="w-5 h-5 fill-current"
+            className="w-5 h-5 fill-current"
             viewBox="0 0 24 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

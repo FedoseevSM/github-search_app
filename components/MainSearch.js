@@ -4,29 +4,28 @@ const MainSearch = () => {
   useEffect(() => {})
   // Ошибка при выполнении поиска
   function renderError() {
-    const resultsContainer = document.getElementById("resultsContainer")
-    const countContainer = document.querySelector(".search__findings")
+    const countContainer = document.getElementById("searchFindings")
     const errorContainer = document.querySelector(".search__error")
     errorContainer.innerHTML = `
-      <img src="https://code.s3.yandex.net/web-code/entrance-test/search.svg" alt="" class="search__error-icon" />
+      <img src="https://code.s3.yandex.net/web-code/entrance-test/search.svg" alt="" class="search__error-icon inline-block" />
       <p class="search__error-message">
       Произошла ошибка...
       </p>
       `
-    countContainer.innerHTML = ""
+    countContainer.textContent = ""
   }
 
   // Ничего не найдено по поисковому запросу
   function renderEmptyResults() {
-    const countContainer = document.querySelector(".search__findings")
+    const countContainer = document.getElementById("searchFindings")
     const errorContainer = document.querySelector(".search__error")
     errorContainer.innerHTML = `
-          <img src="https://code.s3.yandex.net/web-code/entrance-test/search.svg" alt="" class="search__error-icon" />
+          <img src="https://code.s3.yandex.net/web-code/entrance-test/search.svg" alt="" class="search__error-icon inline-block" />
           <p class="search__error-message">
           По вашему запросу ничего не найдено, попробуйте уточнить запрос
           </p>
     `
-    countContainer.innerHTML = ""
+    countContainer.textContent = ""
   }
   // Счётчик найденных результатов
   function renderCount(count) {
@@ -299,7 +298,7 @@ const MainSearch = () => {
               >
                 <section id="resultsContainer"></section>
               </div>
-              <div className="search__error"></div>
+              <div className="search__error text-center"></div>
             </div>
           </div>
         </div>

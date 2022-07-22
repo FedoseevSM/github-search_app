@@ -17,13 +17,12 @@ export default function Home() {
           href={`${process.env.NEXT_PUBLIC_FAVICON}/favicon.ico`}
         />
       </Head>
-      <div class="flex flex-col h-screen justify-between">
+      <div className="flex flex-col h-screen justify-between">
         <EntryLayout>
-          <main class="mb-auto">
+          <main className="mb-auto">
             <MainSearch />
           </main>
         </EntryLayout>
-        <script src="plugins/MainSearch.plugin.js"></script>
       </div>
     </div>
   )
