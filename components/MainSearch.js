@@ -290,7 +290,7 @@ const MainSearch = () => {
               </ul>
               {/* end */}
             </div>
-            <div class="search__result">
+            <div className="search__result">
               <h2 id="searchFindings"></h2>
               <div
                 aria-label="people-task-file1"
@@ -299,7 +299,7 @@ const MainSearch = () => {
               >
                 <section id="resultsContainer"></section>
               </div>
-              <div class="search__error"></div>
+              <div className="search__error"></div>
             </div>
           </div>
         </div>
